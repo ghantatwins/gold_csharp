@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gold_API", "Gold_API\Gold_API.csproj", "{E6EA56A8-2B26-4E2D-8EB5-B7F2E7D6050B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{846BD35E-24B5-46A7-AAA1-FAEDD55A6D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Tests", "Tests\API_Tests\API_Tests.csproj", "{266CEF69-724F-464E-A67D-015BF044AA4F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6EA56A8-2B26-4E2D-8EB5-B7F2E7D6050B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EA56A8-2B26-4E2D-8EB5-B7F2E7D6050B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EA56A8-2B26-4E2D-8EB5-B7F2E7D6050B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EA56A8-2B26-4E2D-8EB5-B7F2E7D6050B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266CEF69-724F-464E-A67D-015BF044AA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266CEF69-724F-464E-A67D-015BF044AA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266CEF69-724F-464E-A67D-015BF044AA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266CEF69-724F-464E-A67D-015BF044AA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{266CEF69-724F-464E-A67D-015BF044AA4F} = {846BD35E-24B5-46A7-AAA1-FAEDD55A6D87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15CE983D-FDB3-4B72-A3FB-96BC6DF470F4}
