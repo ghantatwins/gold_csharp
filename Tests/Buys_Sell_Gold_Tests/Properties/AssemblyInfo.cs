@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Gold_API")]
+[assembly: AssemblyTitle("Buys_Sell_Gold_Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Gold_API")]
+[assembly: AssemblyProduct("Buys_Sell_Gold_Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e6ea56a8-2b26-4e2d-8eb5-b7f2e7d6050b")]
+[assembly: Guid("91a95e5e-81a3-463c-bf33-5e6d447416cf")]
 
 // Version information for an assembly consists of the following four values:
 //
